@@ -32,7 +32,7 @@ Shoes.app :height => 500, :width => 250 do
 		if @lives <= 0 and @game_over == false
 			@game_over = true
 			game_over
-			close
+			break
 		end
 
 		@score_box.clear do

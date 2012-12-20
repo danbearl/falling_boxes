@@ -20,22 +20,6 @@ class Player
 			@y += 5
 		end
 
-		if @y < 1
-			@y = 1
-		end
-
-		if @y > 495
-			@y = 495
-		end
-
-		if @x < 1
-			@x = 1
-		end
-		
-		if @x > 245
-			@x = 245
-		end
-
 		return true
 	end
 end

@@ -7,7 +7,7 @@ class Box
 		@speed = rand(10)+1
 		@count = 0
 		@x = rand(200)+1
-		@y = 1
+		@y = 55
 	end
 
 	def check
@@ -47,7 +47,7 @@ class Box
 	end
 
 	def respawn
-		@y = 1
+		@y = 55
 		@width = rand(45)+6
 		@height = rand(45)+6
 		@speed = rand(10)+1
